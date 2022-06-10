@@ -128,6 +128,6 @@ $(document).ready(function() {
     const altArray = beepBoop(input1)
     console.log(altArray);
     // document.getElementById("#altArray").innerHTML;
-    $("#altArray").show(altArray);
+    $("p").html(altArray);
   });
 })
