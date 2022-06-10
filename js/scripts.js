@@ -127,7 +127,7 @@ $(document).ready(function() {
   $("form#roboger").submit(function(event) {
     event.preventDefault();
     const input1 = $("select#input1").val();
-    function beepBoop(input1)
-    $("#digitsArray").show();
+    const altArray = function beepBoop(input1)
+    $("#altArray").show();
   });
 })
