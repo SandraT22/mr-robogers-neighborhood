@@ -19,12 +19,12 @@ _This simple html website allows users to input a number. The website then turns
 
 ## Test Driven Development
 #### Describe: beepBoop()
-##### Test: This test will take the number input from the user and return an array of numbers from 0 to the user's inputted number.
+<!-- ##### Test: This test will take the number input from the user and return an array of numbers from 0 to the user's inputted number.
 ##### Code: beepBoop(5);
-##### Expected Output: [0, 1, 2, 3, 4, 5]
-##### Test: This test will identify the number 1 within the array.
+##### Expected Output: [0, 1, 2, 3, 4, 5] -->
+<!-- ##### Test: This test will identify the number 1 within the array.
 ##### Code: beepBoop(5)
-##### Expected Output: [1]
+##### Expected Output: True -->
 ##### Test: This test will identify the number 2 within the array. 
 ##### Code: beepBoop(5)
 ##### Expected Output: [2]

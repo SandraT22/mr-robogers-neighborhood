@@ -8,15 +8,34 @@ function beepBoop(number) {
   return digitsArray;
 };
 // This test will identify the number 1 within the array.
-function beepBoop(number, index) {
+function beepBoop(number) {
   const digits = parseInt(number);
   let digitsArray = [];
   let oneFlag = false;
+  let twoFlag = false;
   for (let i = 0; i <= digits; i += 1) {
     digitsArray.push(i);
-  } if (digitsArray[index] === "1") {
-      oneFlag = true;
-  };
-  console.log("looped");
+    if (digitsArray[i] === 1) {
+        oneFlag = true;
+      };
+  } 
+    console.log(oneFlag);
+  return digitsArray;
+};
+// This test will identify the number 2 within the array.
+function beepBoop(number) {
+  const digits = parseInt(number);
+  let digitsArray = [];
+  let oneFlag = false;
+  let twoFlag = false;
+  for (let i = 0; i <= digits; i += 1) {
+    digitsArray.push(i);
+    if (digitsArray[i] === 1) {
+        oneFlag = true;
+    } else if (digitsArray[i] === 2) {
+      twoFlag = true;
+    };
+  } 
+  console.log(twoFlag);
   return digitsArray;
 };
