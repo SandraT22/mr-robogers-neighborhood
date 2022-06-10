@@ -19,27 +19,30 @@ _This simple html website allows users to input a number. The website then turns
 
 ## Test Driven Development
 #### Describe: beepBoop()
-<!-- ##### Test: This test will take the number input from the user and return an array of numbers from 0 to the user's inputted number.
+##### Test: This test will take the number input from the user and return an array of numbers from 0 to the user's inputted number.
 ##### Code: beepBoop(5);
 ##### Expected Output: [0, 1, 2, 3, 4, 5] -->
-<!-- ##### Test: This test will identify the number 1 within the array.
+##### Test: This test will identify the number 1 within the array.
 ##### Code: beepBoop(5)
-##### Expected Output: True -->
-<!-- ##### Test: This test will identify the number 2 within the array. 
+##### Expected Output: True
+##### Test: This test will identify the number 2 within the array. 
 ##### Code: beepBoop(5)
 ##### Expected Output: True
  ##### Test: This test will identify the number 3 within the array.
 ##### Code: beepBoop(5)
-##### Expected Output: True -->
-<!-- ##### Test: This test will replace a number containing the number 1 with the word "Boop!".
+##### Expected Output: True
+##### Test: This test will replace a number containing the number 1 with the word "Boop!".
 ##### Code: beepBoop(5)
-##### Expected Output: [0, "Boop!", 2, 3, 4, 5] -->
-<!-- ##### Test: This test will replace a number containing the number 2 with the word "Beep!".
+##### Expected Output: [0, "Boop!", 2, 3, 4, 5]
+##### Test: This test will replace a number containing the number 2 with the word "Beep!".
 ##### Code: beepBoop(5)
-##### Expected Output: [0, "Boop!", "Beep!", 3, 4, 5] -->
-<!-- ##### Test: This test will replace a number containing the number 3 with the question "Won't you be my neighbor?".
+##### Expected Output: [0, "Boop!", "Beep!", 3, 4, 5]
+##### Test: This test will replace a number containing the number 3 with the question "Won't you be my neighbor?".
 ##### Code: beepBoop(5)
-##### Expected Output: "Won't you be my neighbor?" -->
+##### Expected Output:["0", "Beep", "Boop", "Won't you be my neighbor?"] 
+##### Test: This test will find a number containing 1, 2, or 3 and replace them with "beep!", "boop!", or "Won't you be my neighbor?" respectively. 
+##### Code: beepBoop(5)
+##### Expected Output: ["0", "Beep", "Boop", "Won't you be my neighbor?", "4", "5"]
 ## License
 _If you have any questions or concerns, please feel free to reach out to me [via email at: sandratena06@gmail.com](mailto:sandratena06@gmail.com) or request to make a contribution. Thank you!_ 
 #### The MIT License (MIT)

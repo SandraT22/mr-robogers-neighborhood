@@ -1,0 +1,5 @@
+.clickable {
+  display: none;
+  color: blue;
+  cursor: pointer;
+}

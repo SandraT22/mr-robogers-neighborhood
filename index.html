@@ -8,29 +8,44 @@
     <title>Mr. Roboger's Neighborhood</title>
   </head>
   <body>
-    <h1></h1>
-    <form id="roboger">
-      <label for="input1">Please select a number</label>
-      <select id="input1">
-        <option value="select" selected disabled hidden>Select</option>
-        <option value="1">1</option>
-        <option value="2">2</option>
-        <option value="3">3</option>
-        <option value="4">4</option>
-        <option value="5">5</option>
-        <option value="6">6</option>
-        <option value="7">7</option>
-        <option value="8">8</option>
-        <option value="9">9</option>
-        <option value="10">10</option>
-        <option value="11">11</option>
-        <option value="12">12</option>
-        <option value="13">13</option>
-      </select>
-      <button type="submit" class="btn">Show my results!</button>
-    </form>
-    <div id="altArray">
-      <p></p>
+    <div class="container">
+      <div class="card">
+        <div class="card-title">
+          <h1>Mr. Roboger's Neighborhood</h1>
+        </div>
+        <div class="card-body">
+          <form id="roboger">
+            <label for="input1">Please select a number</label>
+            <select id="input1">
+              <option value="select" selected disabled hidden>Select</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+              <option value="13">13</option>
+            </select>
+            <button type="submit" class="btn">Show my results!</button>
+          </form>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-title">
+          <h2>Results:</h2>
+        </div>
+        <div class="card-body">
+          <div id="result-show">
+            <p><span class="clickable">Click to hide results</span></p>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
