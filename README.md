@@ -37,15 +37,9 @@ _This simple html website allows users to input a number. The website then turns
 <!-- ##### Test: This test will replace a number containing the number 2 with the word "Beep!".
 ##### Code: beepBoop(5)
 ##### Expected Output: [0, "Boop!", "Beep!", 3, 4, 5] -->
-##### Test: This test will replace a number containing the number 3 with the question "Won't you be my neighbor?".
+<!-- ##### Test: This test will replace a number containing the number 3 with the question "Won't you be my neighbor?".
 ##### Code: beepBoop(5)
-##### Expected Output: "Won't you be my neighbor?"
-<!-- ##### Test: This test will identify the number 1 within the array.
-##### Code: 
-##### Expected Output:
-##### Test: This test will identify the number 1 within the array.
-##### Code: 
-##### Expected Output: -->
+##### Expected Output: "Won't you be my neighbor?" -->
 ## License
 _If you have any questions or concerns, please feel free to reach out to me [via email at: sandratena06@gmail.com](mailto:sandratena06@gmail.com) or request to make a contribution. Thank you!_ 
 #### The MIT License (MIT)

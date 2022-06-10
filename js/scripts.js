@@ -1,3 +1,4 @@
+// BUSINESS LOGIC
 // // TEST WILL TAKE THE INPUT Number AND RETURN IT AS AN ARRAY FROM 0 TO THE INPUTED NUMBER
 // function beepBoop(number) {
 //   const digits = parseInt(number);
@@ -121,3 +122,12 @@ function beepBoop(number) {
   } 
   return digitsArray;
 };
+// UI LOGIC
+$(document).ready(function() {
+  $("form#roboger").submit(function(event) {
+    event.preventDefault();
+    const input1 = $("select#input1").val();
+    function beepBoop(input1)
+    $("#digitsArray").show();
+  });
+})
