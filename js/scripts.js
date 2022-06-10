@@ -105,20 +105,17 @@
 function beepBoop(number) {
   const digits = parseInt(number);
   let digitsArray = [];
-  let oneFlag = false;
-  let twoFlag = false;
-  let threeFlag = false;
   for (let i = 0; i <= digits; i += 1) {
-    digitsArray.push(i);
-    if (digitsArray[i] === 1) {
-        digitsArray[1] = "Boop!";
+    digitsArray.push(i.toString());
+    if (digitsArray[i].includes("3")) {
+      digitsArray[i] = "Won't you be my neighbor!";
     } 
-    else if (digitsArray[i] === 2) {
-        digitsArray[2] = "Beep!";
+    else if (digitsArray[i].includes("2")) {
+      digitsArray[i] = "Boop!";
     } 
-    else if (digitsArray[i] === 3) {
-        digitsArray[3] = "Won't you be my neighbor?";
-    };
+    else if (digitsArray[i].includes("1")) {
+      digitsArray[i] = "Beep!";
+    }
   } 
   return digitsArray;
 };
@@ -127,8 +124,10 @@ $(document).ready(function() {
   $("form#roboger").submit(function(event) {
     event.preventDefault();
     const input1 = $("select#input1").val();
-    const altArray = function beepBoop(input1);
+    console.log(input1);
+    const altArray = beepBoop(input1)
+    console.log(altArray);
     // document.getElementById("#altArray").innerHTML;
-    $("#altArray").show();
+    $("#altArray").show(altArray);
   });
 })
