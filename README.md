@@ -22,12 +22,30 @@ _This simple html website allows users to input a number. The website then turns
 ##### Test: This test will take the number input from the user and return an array of numbers from 0 to the user's inputted number.
 ##### Code: beepBoop(5);
 ##### Expected Output: [0, 1, 2, 3, 4, 5]
-##### Test: 
+##### Test: This test will identify the number 1 within the array.
+##### Code: beepBoop(5)
+##### Expected Output: [1]
+##### Test: This test will identify the number 2 within the array. 
+##### Code: beepBoop(5)
+##### Expected Output: [2]
+ ##### Test: This test will identify the number 3 within the array.
+##### Code: beepBoop(5)
+##### Expected Output: [3]
+##### Test: This test will replace a number containing the number 1 with the word "Boop!".
+##### Code: beepBoop(5)
+##### Expected Output: "Boop!"
+##### Test: This test will replace a number containing the number 2 with the word "Beep!"..
+##### Code: beepBoop(5)
+##### Expected Output: "Beep!"
+##### Test: This test will replace a number containing the number 3 with the question "Won't you be my neighbor?".
+##### Code: beepBoop(5)
+##### Expected Output: "Won't you be my neighbor?"
+<!-- ##### Test: This test will identify the number 1 within the array.
 ##### Code: 
-##### Expected Output: 
-##### Test: 
+##### Expected Output:
+##### Test: This test will identify the number 1 within the array.
 ##### Code: 
-##### Expected Output: 
+##### Expected Output: -->
 ## License
 _If you have any questions or concerns, please feel free to reach out to me [via email at: sandratena06@gmail.com](mailto:sandratena06@gmail.com) or request to make a contribution. Thank you!_ 
 #### The MIT License (MIT)
