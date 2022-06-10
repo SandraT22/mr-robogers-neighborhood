@@ -129,7 +129,7 @@ $(document).ready(function() {
     console.log(altArray);
     // document.getElementById("#altArray").innerHTML;
     $("p").html(altArray);
-  })
+  });
   function resetDropDown () {
     $("#input1").prop("selectedIndex",0);
   }
