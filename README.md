@@ -31,12 +31,12 @@ _This simple html website allows users to input a number. The website then turns
  ##### Test: This test will identify the number 3 within the array.
 ##### Code: beepBoop(5)
 ##### Expected Output: True -->
-##### Test: This test will replace a number containing the number 1 with the word "Boop!".
+<!-- ##### Test: This test will replace a number containing the number 1 with the word "Boop!".
 ##### Code: beepBoop(5)
-##### Expected Output: "Boop!"
-##### Test: This test will replace a number containing the number 2 with the word "Beep!"..
+##### Expected Output: [0, "Boop!", 2, 3, 4, 5] -->
+<!-- ##### Test: This test will replace a number containing the number 2 with the word "Beep!".
 ##### Code: beepBoop(5)
-##### Expected Output: "Beep!"
+##### Expected Output: [0, "Boop!", "Beep!", 3, 4, 5] -->
 ##### Test: This test will replace a number containing the number 3 with the question "Won't you be my neighbor?".
 ##### Code: beepBoop(5)
 ##### Expected Output: "Won't you be my neighbor?"

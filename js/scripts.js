@@ -69,13 +69,34 @@ function beepBoop(number) {
   for (let i = 0; i <= digits; i += 1) {
     digitsArray.push(i);
     if (digitsArray[i] === 1) {
-        digitsArray[1] = "Boop";
+        digitsArray[1] = "Boop!";
     } 
   //   else if (digitsArray[i] === 2) {
   //     twoFlag = true;
   //   } else if (digitsArray[i] === 3) {
   //     threeFlag = true;
   //   };
+  } 
+  return digitsArray;
+};
+// This test will replace a number containing the number 2 with the word "Beep!".
+function beepBoop(number) {
+  const digits = parseInt(number);
+  let digitsArray = [];
+  let oneFlag = false;
+  let twoFlag = false;
+  let threeFlag = false;
+  for (let i = 0; i <= digits; i += 1) {
+    digitsArray.push(i);
+    if (digitsArray[i] === 1) {
+        digitsArray[1] = "Boop!";
+    } 
+    else if (digitsArray[i] === 2) {
+        digitsArray[2] = "Beep!";
+    } 
+    // else if (digitsArray[i] === 3) {
+    //   threeFlag = true;
+    // };
   } 
   return digitsArray;
 };
