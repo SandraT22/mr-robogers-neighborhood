@@ -25,12 +25,12 @@ _This simple html website allows users to input a number. The website then turns
 <!-- ##### Test: This test will identify the number 1 within the array.
 ##### Code: beepBoop(5)
 ##### Expected Output: True -->
-##### Test: This test will identify the number 2 within the array. 
+<!-- ##### Test: This test will identify the number 2 within the array. 
 ##### Code: beepBoop(5)
-##### Expected Output: [2]
+##### Expected Output: True
  ##### Test: This test will identify the number 3 within the array.
 ##### Code: beepBoop(5)
-##### Expected Output: [3]
+##### Expected Output: True -->
 ##### Test: This test will replace a number containing the number 1 with the word "Boop!".
 ##### Code: beepBoop(5)
 ##### Expected Output: "Boop!"
