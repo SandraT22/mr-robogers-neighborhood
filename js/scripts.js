@@ -60,26 +60,47 @@
 //   return digitsArray;
 // };
 // This test will replace a number containing the number 1 with the word "Boop!".
-function beepBoop(number) {
-  const digits = parseInt(number);
-  let digitsArray = [];
-  let oneFlag = false;
-  let twoFlag = false;
-  let threeFlag = false;
-  for (let i = 0; i <= digits; i += 1) {
-    digitsArray.push(i);
-    if (digitsArray[i] === 1) {
-        digitsArray[1] = "Boop!";
-    } 
-  //   else if (digitsArray[i] === 2) {
-  //     twoFlag = true;
-  //   } else if (digitsArray[i] === 3) {
-  //     threeFlag = true;
-  //   };
-  } 
-  return digitsArray;
-};
+// function beepBoop(number) {
+//   const digits = parseInt(number);
+//   let digitsArray = [];
+//   let oneFlag = false;
+//   let twoFlag = false;
+//   let threeFlag = false;
+//   for (let i = 0; i <= digits; i += 1) {
+//     digitsArray.push(i);
+//     if (digitsArray[i] === 1) {
+//         digitsArray[1] = "Boop!";
+//     } 
+//   //   else if (digitsArray[i] === 2) {
+//   //     twoFlag = true;
+//   //   } else if (digitsArray[i] === 3) {
+//   //     threeFlag = true;
+//   //   };
+//   } 
+//   return digitsArray;
+// };
 // This test will replace a number containing the number 2 with the word "Beep!".
+// function beepBoop(number) {
+//   const digits = parseInt(number);
+//   let digitsArray = [];
+//   let oneFlag = false;
+//   let twoFlag = false;
+//   let threeFlag = false;
+//   for (let i = 0; i <= digits; i += 1) {
+//     digitsArray.push(i);
+//     if (digitsArray[i] === 1) {
+//         digitsArray[1] = "Boop!";
+//     } 
+//     else if (digitsArray[i] === 2) {
+//         digitsArray[2] = "Beep!";
+//     } 
+//     // else if (digitsArray[i] === 3) {
+//     //   threeFlag = true;
+//     // };
+//   } 
+//   return digitsArray;
+// };
+// This test will replace a number containing the number 3 with the question "Won't you be my neighbor?".
 function beepBoop(number) {
   const digits = parseInt(number);
   let digitsArray = [];
@@ -94,9 +115,9 @@ function beepBoop(number) {
     else if (digitsArray[i] === 2) {
         digitsArray[2] = "Beep!";
     } 
-    // else if (digitsArray[i] === 3) {
-    //   threeFlag = true;
-    // };
+    else if (digitsArray[i] === 3) {
+        digitsArray[3] = "Won't you be my neighbor?";
+    };
   } 
   return digitsArray;
 };
