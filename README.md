@@ -14,7 +14,7 @@ _This simple html website allows users to input a number. The website then turns
 * Navigate to the top level of the directory. 
 * Open index.html in your browser. 
 ## Known Bugs
-* 
+* Result always display but are replaced with new results. 
 ## GitHub Page Link
 
 ## Test Driven Development
