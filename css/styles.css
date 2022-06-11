@@ -1,7 +1,5 @@
 .clickable {
   color: blue;
+  text-decoration: underline;
   cursor: pointer;
-}
-#result-show {
-  display: none;
 }
