@@ -3,3 +3,15 @@
   text-decoration: underline;
   cursor: pointer;
 }
+
+h1 {
+  color: rgb(126, 62, 126);
+}
+
+h2 {
+  color: lightskyblue;
+}
+
+body {
+  background-color: silver;
+}
